@@ -3,7 +3,9 @@ This script is to build my own version of the Unix command line tool wc!
 
 ## The functional requirements for wc are concisely described by it’s man page - give it a go in our local terminal now:
 
-`man wc`
+```
+man wc
+```
 
 ### Step Zero
 Like all good software engineering we’re zero indexed! In this step we’re going to set our environment up ready to begin developing and testing our solution.
