@@ -10,7 +10,7 @@ Like all good software engineering we’re zero indexed! In this step we’re go
 
 We'll setup our IDE / editor of choice and programming language of choice. After that here’s what I’d like us to do to be ready to test our solution.
 
-Download the this text and save it as test.txt.
+We already have test.txt file in this repository.
 
 ### Step One
 In this step our goal is to write a simple version of wc, let’s call it ccwc (cc for Coding Challenges) that takes the command line option -c and outputs the number of bytes in a file.
