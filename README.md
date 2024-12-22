@@ -21,7 +21,6 @@ If we’ve done it right our output should match this:
 ```
 >ccwc -c test.txt
   342190 test.txt
-
 ```
 
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! On to…
@@ -34,7 +33,6 @@ If we’ve done it right our output should match this:
 ```
 >ccwc -l test.txt
     7145 test.txt
-
 ```
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! On to…
 
@@ -44,7 +42,6 @@ In this step our goal is to support the command line option -w that outputs the 
 ```
 >ccwc -w test.txt
    58164 test.txt
-
 ```
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! On to…
 
@@ -61,7 +58,6 @@ For this one our answer will depend on our locale, so if can, use wc itself and 
 
 >ccwc -m test.txt
   339292 test.txt
-
 ```
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! On to…
 
@@ -71,7 +67,6 @@ In this step our goal is to support the default option - i.e. no options are pro
 ```
 >ccwc test.txt
     7145   58164  342190 test.txt
-
 ```
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! On to…
 
@@ -81,7 +76,6 @@ In this step our goal is to support being able to read from standard input if no
 ```
 >cat test.txt | ccwc -l
     7145
-
 ```
 If it doesn’t, check our code, fix any bugs and try again. If it does, congratulations! we’ve done it, pat ourself on the back, job well done!
 
